@@ -6,7 +6,7 @@
 
 以下為螢火蟲演算法的流程圖
 
-![]
+![PNG](img/flow.PNG)
 
 以下為螢火蟲演算法的pseudocode
 
