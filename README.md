@@ -11,17 +11,17 @@
 以下為螢火蟲演算法的pseudocode
 
     Begin
-      1) Objective function: $$ f(x), x=(x_1,x_2,...,x_d) $$;
-      2) Generate an initial population of fireflies $$ x_i (i = 1,2,...,n) $$;
-      3) Formulate light intensity I so that it is associated with $$ f(x) $$
-      (for example, for maximization problems, $$ I\proptof(x)$$ or simply $$ I = f(x) $$;
-      4) Define absorption coefficient $$ \gamma $$
+      1) Objective function: $ f(x), x=(x_1,x_2,...,x_d) $;
+      2) Generate an initial population of fireflies $ x_i (i = 1,2,...,n) $;
+      3) Formulate light intensity I so that it is associated with $ f(x) $
+      (for example, for maximization problems, $$ I\proptof(x)$$ or simply $ I = f(x) $;
+      4) Define absorption coefficient $ \gamma $
      
       While (t < MaxGeneration)
           for i = 1 : n (all n fireflies)
             for j = 1 : n (n fireflies)
                 if ( $$ I_j > I_i $$ ),
-                  Vary attractiveness with distance r via $$ exp(-\gamma r)  $$;
+                  Vary attractiveness with distance r via $ exp(-\gamma r)  $;
                   move firefly i towards j;                
                   Evaluate new solutions and update light intensity;
                 end if 
