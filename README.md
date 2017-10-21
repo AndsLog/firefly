@@ -11,17 +11,17 @@
 以下為螢火蟲演算法的pseudocode
 
     Begin
-      1) Objective function: {\displaystyle f(\mathbf {x} ),\quad \mathbf {x} =(x_{1},x_{2},...,x_{d})} f({\mathbf  {x}}),\quad {\mathbf  {x}}=(x_{1},x_{2},...,x_{d});
-      2) Generate an initial population of fireflies {\displaystyle \mathbf {x} _{i}\quad (i=1,2,\dots ,n)} {\mathbf  {x}}_{i}\quad (i=1,2,\dots ,n);.
-      3) Formulate light intensity I so that it is associated with {\displaystyle f(\mathbf {x} )} f(\mathbf {x} )
-      (for example, for maximization problems, {\displaystyle I\propto f(\mathbf {x} )} I\propto f({\mathbf  {x}}) or simply {\displaystyle I=f(\mathbf {x} )} I=f({\mathbf  {x}});)
-      4) Define absorption coefficient γ
+      1) Objective function: $$ f(x), x=(x_1,x_2,...,x_d) $$;
+      2) Generate an initial population of fireflies $$ x_i (i = 1,2,...,n) $$;
+      3) Formulate light intensity I so that it is associated with $$ f(x) $$
+      (for example, for maximization problems, $$ I\proptof(x)$$ or simply $$ I = f(x) $$;
+      4) Define absorption coefficient $$ \gamma $$
      
       While (t < MaxGeneration)
           for i = 1 : n (all n fireflies)
             for j = 1 : n (n fireflies)
-                if ( {\displaystyle I_{j}>I_{i}} I_{j}>I_{i}),
-                  Vary attractiveness with distance r via {\displaystyle \exp(-\gamma \;r)} \exp(-\gamma \;r);
+                if ( $$ I_j > I_i $$ ),
+                  Vary attractiveness with distance r via $$ exp(-\gamma r)  $$;
                   move firefly i towards j;                
                   Evaluate new solutions and update light intensity;
                 end if 
