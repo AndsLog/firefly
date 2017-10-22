@@ -34,20 +34,20 @@
 
 狩獵起源
 
-![]()
+![PNG](../assets/img/hunt1.PNG)
 
 陷阱介紹
 
-![]()
+![PNG](../assets/img/hunt2.PNG)
 
 狩獵須知
 
-![]()
+![PNG](../assets/img/hunt3.PNG)
 
-Demo影片[Here]()
+Demo影片[Here](https://www.youtube.com/watch?v=TdFRJJ-BMSw)
 
 陷阱動畫
 
-![]()
+![PNG](../assets/img/hunt4.PNG)
 
-Demo影片[Here]()
+Demo影片[Here](https://www.youtube.com/watch?v=mz-znnrKfMg)
